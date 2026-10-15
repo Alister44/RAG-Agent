@@ -131,7 +131,7 @@ def analyze_emails_with_ai(emails):
                 model="gemini-3.0-flash-preview",
                 contents=prompt
             )
-            print(f"\nAnaluze from AI:\n{response.text}")
+            print(f"\nAnalyze from AI:\n{response.text}")
             
         except Exception as e:
             print(f"Error from AI: {e}")
